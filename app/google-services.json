@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "24896340234",
+    "project_id": "sih-prototype-beebc",
+    "storage_bucket": "sih-prototype-beebc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24896340234:android:f28f519728d54cf6b8faf3",
+        "android_client_info": {
+          "package_name": "com.example.sih_prototype"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVCX86xFDSSTPnE64x3db3UM5CymXKc_c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

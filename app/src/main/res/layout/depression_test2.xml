@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#65DB6F">
+
+   <ImageView
+       android:id="@+id/imageView6"
+       android:layout_width="200dp"
+       android:layout_height="200dp"
+       android:src="@drawable/mentalhealth"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.497"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.05" />
+
+   <TextView
+       android:id="@+id/question"
+       android:layout_width="351dp"
+       android:layout_height="177dp"
+       android:layout_marginTop="32dp"
+       android:background="@drawable/radiuss"
+       android:gravity="center"
+       android:text=" Little interest or pleasure in doing things"
+       android:textColor="#6919E1"
+       android:textSize="30dp"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+   <TextView
+       android:id="@+id/option_two"
+       android:layout_width="168dp"
+       android:layout_height="54dp"
+       android:layout_marginStart="4dp"
+       android:layout_marginTop="32dp"
+       android:background="@drawable/radiuss"
+       android:gravity="center"
+       android:text="Several Days"
+       android:textColor="#6919E1"
+       android:textSize="25dp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="1.0"
+       app:layout_constraintStart_toEndOf="@+id/option_one"
+       app:layout_constraintTop_toBottomOf="@+id/question"
+       app:layout_constraintVertical_bias="0.009" />
+
+   <TextView
+       android:id="@+id/option_one"
+       android:layout_width="183dp"
+       android:layout_height="55dp"
+       android:background="@drawable/radiuss"
+       android:gravity="center"
+       android:text="Not At All"
+       android:textColor="#6919E1"
+       android:textSize="25dp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.0"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/question"
+       app:layout_constraintVertical_bias="0.139" />
+
+   <TextView
+       android:id="@+id/option_three"
+       android:layout_width="180dp"
+       android:layout_height="60dp"
+       android:background="@drawable/radiuss"
+       android:gravity="center"
+       android:text="Most of the Time"
+       android:textColor="#6919E1"
+       android:textSize="25dp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.0"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/question"
+       app:layout_constraintVertical_bias="0.548" />
+
+   <TextView
+       android:id="@+id/option_four"
+       android:layout_width="160dp"
+       android:layout_height="54dp"
+       android:background="@drawable/radiuss"
+       android:gravity="center"
+       android:text="Everyday"
+       android:textColor="#6919E1"
+       android:textSize="25dp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="1.0"
+       app:layout_constraintStart_toEndOf="@+id/option_three"
+       app:layout_constraintTop_toBottomOf="@+id/question"
+       app:layout_constraintVertical_bias="0.541" />
+
+   <Button
+       android:id="@+id/btnsubmit"
+       android:layout_width="244dp"
+       android:layout_height="51dp"
+       android:text="SUBMIT"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.497"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/option_two"
+       app:layout_constraintVertical_bias="0.811" />
+</androidx.constraintlayout.widget.ConstraintLayout>

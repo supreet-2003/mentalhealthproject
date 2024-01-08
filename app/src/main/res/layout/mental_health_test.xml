@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#65DB6F">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="295dp"
+        android:layout_height="328dp"
+
+        android:src="@drawable/meditation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/depression_test"
+        android:layout_width="350dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="384dp"
+        android:background="@drawable/radius"
+        android:text="    DEPRESSION TEST     +"
+        android:textColor="@color/white"
+        android:textSize="29dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" “Mental disorders are not your fault, but they are your responsibility.”"
+        android:textColor="#5109F6"
+
+        android:textSize="25sp"
+        android:textStyle="italic"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/youth_test"
+        app:layout_constraintVertical_bias="0.333">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/adhd_test"
+        android:layout_width="350dp"
+
+        android:layout_height="53dp"
+        android:layout_marginTop="84dp"
+        android:background="@drawable/radius"
+        android:text="            ADHD TEST         +"
+        android:textColor="@color/white"
+        android:textSize="29dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/depression_test">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/youth_test"
+        android:layout_width="350dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="84dp"
+        android:background="@drawable/radius"
+        android:text="  YOUTH MENTAL TEST +"
+        android:textColor="@color/white"
+        android:textSize="29dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/adhd_test">
+
+    </TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
